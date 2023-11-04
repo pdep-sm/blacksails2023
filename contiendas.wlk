@@ -44,9 +44,11 @@ object negociacion inherits Contienda {
     }
 }
 
+/** esto es un ejemplo :)
 object dueloCapitanes inherits Contienda {
- //esto es un ejemplo :)
+ 
 }
+*/
 
 class ContiendaException inherits Exception {
 

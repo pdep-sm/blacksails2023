@@ -14,9 +14,9 @@ class Bestia {
 }
 
 
-class BallenaAzul inhertis Bestia {
+class BallenaAzul inherits Bestia {
 
-    method afectar(embarcacion) {
+    override method afectar(embarcacion) {
         embarcacion.envejecerCaniones(8)
     }
 
